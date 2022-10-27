@@ -23,6 +23,7 @@ class SnakeBlock:
         self.x = x
         self.y = y
 
+
     def is_inside(self):
         return 0 <= self.x < SIZE_BLOCK and 0 <= self.y <SIZE_BLOCK
 
